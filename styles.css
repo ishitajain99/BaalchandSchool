@@ -1,0 +1,93 @@
+/*general*/
+body{
+ text-align: center;
+  font-family: 'Sansita Swashed', cursive;
+}
+hr{
+  width: 40%;
+  height:2px;
+  border-width:0;
+  color:gray;
+  background-color:gray
+}
+img:hover {
+  opacity: 0.5
+}
+.navclass{
+  height: 3rem;
+  width: 3rem;
+}
+.navbar{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+  z-index: 9999;
+}
+/*index.html*/
+.index{
+  background-color: #c87941
+}
+.carousel-item{
+    height: 30rem;
+}
+.carousel-item img{
+    height: 30rem;
+}
+.section2{
+  margin: 1.5rem 0 3rem 0;
+}
+.section3{
+  background-color: #fff;
+  padding: 3rem  3rem ;
+}
+.subsection3{
+  padding-left: 5rem;
+}
+.section4{
+  padding: 2rem 0 2rem;
+}
+
+/*about.html*/
+.aboutclass{
+  background-color: #8d93ab
+}
+.image{
+  height: 15rem;
+  width: 20rem;
+}
+.about{
+  margin: 4rem;
+  padding-top: 2rem;
+}
+.asection2{
+  padding:3% 2%;
+}
+/*media.html*/
+.mediaa   {
+  background-color: #393b44;
+}
+.msection1img{
+  height: 12rem;
+  width: 20rem;
+  border-radius: 10%;
+  border: 5px solid gray;
+}
+.msection1{
+  margin: 5rem;
+}
+.msectiontext{
+  padding-top: 2rem;
+  border:3px solid gray;
+  background-image: url("bg1.jpeg");
+}
+/*contact.html*/
+.contact{
+  margin: 7rem;
+  padding-left: 3rem;
+}
+.cimage{
+  height: 10rem;
+  width: 15rem;
+}
